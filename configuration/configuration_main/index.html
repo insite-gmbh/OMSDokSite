@@ -1,0 +1,578 @@
+
+
+
+<!doctype html>
+<html lang="de" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="../../favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.7">
+    
+    
+      
+        <title>Konfiguration des OMS - OMS Dokumentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.b8ac9624.min.css">
+      
+      
+    
+    
+    
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#konfiguration-der-oms-appware" class="md-skip">
+          Zum Inhalt
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../.." title="OMS Dokumentation" class="md-header-nav__button md-logo" aria-label="OMS Dokumentation">
+      
+  <img src="../../favicon.png" alt="logo">
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            OMS Dokumentation
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Konfiguration des OMS
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Suche" placeholder="Suche" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Suche wird initialisiert
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="OMS Dokumentation" class="md-nav__button md-logo" aria-label="OMS Dokumentation">
+      
+  <img src="../../favicon.png" alt="logo">
+
+    </a>
+    OMS Dokumentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../working_principle/working_principle_main/" title="Funktionsprinzip" class="md-nav__link">
+      Funktionsprinzip
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Konfiguration des OMS
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
+      </label>
+    
+    <a href="./" title="Konfiguration des OMS" class="md-nav__link md-nav__link--active">
+      Konfiguration des OMS
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#start-des-gui" class="md-nav__link">
+    Start des GUI
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hauptseite-des-gui" class="md-nav__link">
+    Hauptseite des GUI
+  </a>
+  
+    <nav class="md-nav" aria-label="Hauptseite des GUI">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#projektverwaltung" class="md-nav__link">
+    Projektverwaltung
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#oms-hinzufugen" class="md-nav__link">
+    OMS hinzufügen
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#auswahl-der-bereits-konfigurierten-oms" class="md-nav__link">
+    Auswahl der bereits konfigurierten OMS
+  </a>
+  
+    <nav class="md-nav" aria-label="Auswahl der bereits konfigurierten OMS">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#einstellungen-eines-oms" class="md-nav__link">
+    Einstellungen eines OMS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#die-digital-ios-des-oms" class="md-nav__link">
+    Die Digital IOs des OMS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#io-konfiguration-auftrage" class="md-nav__link">
+    IO-Konfiguration Aufträge
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#io-konfiguration-tore" class="md-nav__link">
+    IO-Konfiguration Tore
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#io-konfiguration-feueralarm" class="md-nav__link">
+    IO-Konfiguration Feueralarm
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#konfiguration-soft-keys" class="md-nav__link">
+    Konfiguration Soft Keys
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../appware/appware_main/" title="Die AppWare des OMS" class="md-nav__link">
+      Die AppWare des OMS
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../installation/installation_main/" title="Installation des OMS auf dem Zielsystem" class="md-nav__link">
+      Installation des OMS auf dem Zielsystem
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../legal/imprint/" title="Impressum" class="md-nav__link">
+      Impressum
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#start-des-gui" class="md-nav__link">
+    Start des GUI
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hauptseite-des-gui" class="md-nav__link">
+    Hauptseite des GUI
+  </a>
+  
+    <nav class="md-nav" aria-label="Hauptseite des GUI">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#projektverwaltung" class="md-nav__link">
+    Projektverwaltung
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#oms-hinzufugen" class="md-nav__link">
+    OMS hinzufügen
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#auswahl-der-bereits-konfigurierten-oms" class="md-nav__link">
+    Auswahl der bereits konfigurierten OMS
+  </a>
+  
+    <nav class="md-nav" aria-label="Auswahl der bereits konfigurierten OMS">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#einstellungen-eines-oms" class="md-nav__link">
+    Einstellungen eines OMS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#die-digital-ios-des-oms" class="md-nav__link">
+    Die Digital IOs des OMS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#io-konfiguration-auftrage" class="md-nav__link">
+    IO-Konfiguration Aufträge
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#io-konfiguration-tore" class="md-nav__link">
+    IO-Konfiguration Tore
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#io-konfiguration-feueralarm" class="md-nav__link">
+    IO-Konfiguration Feueralarm
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#konfiguration-soft-keys" class="md-nav__link">
+    Konfiguration Soft Keys
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  
+                
+                
+                <h1 id="konfiguration-der-oms-appware">Konfiguration der OMS AppWare</h1>
+<p>Ein OMS bezieht seine AppWare von dem OMSConfigService, der auf einem Rechner installiert und aktiv sein muss, der über das Netzwerk erreichbar ist. </p>
+<p><a href="../../working_principle/working_principle_main/">Mehr dazu hier.</a></p>
+<p>Der OMSConfigService bietet ein web-basiertes GUI, mit dem diese Konfiguration für alle kunden-spezifischen Projekte durchgeführt wird.
+Jedes OMS hat innerhalb eines Projektes eine eindeutige IP-Adresse die als "Identifier" für die jeweilige Konfiguration dient.</p>
+<h2 id="start-des-gui">Start des GUI</h2>
+<p>Da das GUI web-basiert ist, reicht es aus, in der Adresszeile eines Browsers (bevorzugt Google Chrome!) die IP-Adresse des Rechners einzugeben, auf dem der OMSConfigService läuft. Per default verwendet das GUI den Port 5000.</p>
+<p>In diesem Beispiel läuft der OMSConfigService auf dem Rechner mit der IP 192.168.0.134. Daher geben Sie in der Adressleiste des Browsers </p>
+<p><code>192.168.0.134:5000</code></p>
+<p>ein und drücken die Eingabe-Taste. Mit den üblichen Funktionen eines Browsers ("Lesezeichen") können Sie die URL zu dieser "Webseite" speichern.</p>
+<p><img alt="URL-Zeile" src="../URL.PNG?raw=true" title="URL des GUI" /></p>
+<h2 id="hauptseite-des-gui">Hauptseite des GUI</h2>
+<p><img alt="Hauptseite" src="../MainPage.PNG?raw=true" title="Hauptseite des GUI" /></p>
+<h3 id="projektverwaltung">Projektverwaltung</h3>
+<p>Über den Menüpunkt in der rechten oberen Ecke (roter Rahmen) wechselt man auf die <a href="../configuration_project/"><strong>Projektverwaltung</strong></a></p>
+<h3 id="oms-hinzufugen">OMS hinzufügen</h3>
+<p>Über den Menüpunkt in der linken oberen Ecke (grüner Rahmen) kann ein neues OMS im aktuellen Projekt angelegt werden. Es wird automatisch die Seite für die Einstellungen des neuen OMS angezeigt. Zu den Einstellungen folgt weiter unten mehr.</p>
+<p><img alt="Neues OMS angelegt" src="../NewOMS.PNG?raw=true" title="Einstellungen für neues OMS" /></p>
+<h3 id="auswahl-der-bereits-konfigurierten-oms">Auswahl der bereits konfigurierten OMS</h3>
+<p>Die Liste auf der linken Seite (blauer Rahmen) zeigt die bereits für das aktuelle Projekt konfigurierten OMS ("Davids Laptop", "OMS1"). Die jeweiligen Untermenüpunkte können durch eine Klick auf die Pfeilsymbole (gelbe Kreise) geöffnet und geschlossen werden. Für das OMS1 sind hier exemplarisch alle Untermenüs zu sehen.</p>
+<p>Erklärungen und Hinweise zu den einzelnen Menüpunkten finden Sie in diesen Dokumenten:</p>
+<h4 id="einstellungen-eines-oms"><a href="../configuration_settings/">Einstellungen eines OMS</a></h4>
+<h4 id="die-digital-ios-des-oms"><a href="../configuration_iogeneral/">Die Digital IOs des OMS</a></h4>
+<h4 id="io-konfiguration-auftrage"><a href="../configuration_ioorders/">IO-Konfiguration Aufträge</a></h4>
+<h4 id="io-konfiguration-tore"><a href="../configuration_iogates/">IO-Konfiguration Tore</a></h4>
+<h4 id="io-konfiguration-feueralarm"><a href="../configuration_iofire/">IO-Konfiguration Feueralarm</a></h4>
+<h4 id="konfiguration-soft-keys"><a href="../configuration_softkeys/">Konfiguration Soft Keys</a></h4>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../../working_principle/working_principle_main/" title="Funktionsprinzip" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Zurück
+                </span>
+                Funktionsprinzip
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../../appware/appware_main/" title="Die AppWare des OMS" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Weiter
+                </span>
+                Die AppWare des OMS
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.d1f5a259.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d5fec882.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "In Zwischenablage kopieren", "clipboard.copied": "In Zwischenablage kopiert", "search.config.lang": "de", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Suchbegriff eingeben", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: [],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.fae956e7.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
