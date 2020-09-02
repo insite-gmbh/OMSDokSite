@@ -1,0 +1,428 @@
+
+
+
+<!doctype html>
+<html lang="de" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="../../favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.12">
+    
+    
+      
+        <title>Netzwerk konfigurieren - OMS Dokumentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.4dd2dd8d.min.css">
+      
+      
+    
+    
+    
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#netzwerk-konfigurieren" class="md-skip">
+          Zum Inhalt
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../.." title="OMS Dokumentation" class="md-header-nav__button md-logo" aria-label="OMS Dokumentation">
+      
+  <img src="../../favicon.png" alt="logo">
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            OMS Dokumentation
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Netzwerk konfigurieren
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Suche" placeholder="Suche" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Suche wird initialisiert
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="OMS Dokumentation" class="md-nav__button md-logo" aria-label="OMS Dokumentation">
+      
+  <img src="../../favicon.png" alt="logo">
+
+    </a>
+    OMS Dokumentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../working_principle/working_principle_main/" title="Funktionsprinzip" class="md-nav__link">
+      Funktionsprinzip
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../configuration/configuration_main/" title="Konfiguration des OMS" class="md-nav__link">
+      Konfiguration des OMS
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../appware/appware_main/" title="Die AppWare des OMS" class="md-nav__link">
+      Die AppWare des OMS
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../installation_main/" title="Installation des OMS auf dem Zielsystem" class="md-nav__link">
+      Installation des OMS auf dem Zielsystem
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../legal/imprint/" title="Impressum" class="md-nav__link">
+      Impressum
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#beenden-der-oberflache-der-appware" class="md-nav__link">
+    Beenden der Oberfläche der AppWare
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#offnen-eines-terminals" class="md-nav__link">
+    Öffnen eines Terminals
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wlan-konfigurieren" class="md-nav__link">
+    WLAN konfigurieren
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ip-adresse-einstellen" class="md-nav__link">
+    IP-Adresse einstellen
+  </a>
+  
+    <nav class="md-nav" aria-label="IP-Adresse einstellen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#name-der-netzwerk-schnittstelle-ermitteln" class="md-nav__link">
+    Name der Netzwerk-Schnittstelle ermitteln
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#einstellungen-der-netzwerk-schnittstelle-anpassen" class="md-nav__link">
+    Einstellungen der Netzwerk-Schnittstelle anpassen
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  
+                
+                
+                <h1 id="netzwerk-konfigurieren">Netzwerk konfigurieren</h1>
+<p>Die Netzwerk-Konfiguration besteht aus 2 Teilen:  </p>
+<ol>
+<li>Verbindung mit dem WLAN herstellen (Einstellen der SSID, Security-Verfahren und Passwort).  </li>
+<li>Einstellen einer statischen IP-Adresse im WLAN.</li>
+</ol>
+<p><em>Das OMS ist für WLAN-Betrieb vorgesehen, lässt sich prinzipiell aber natürlich auch an einem kabelgebundenen LAN verwenden. In diesem Fall entfällt der 1. Schritt und die statische IP-Adresse muss für die (kabelgebundene) Netzwerkkarte eingestellt werden.</em></p>
+<h2 id="beenden-der-oberflache-der-appware">Beenden der Oberfläche der AppWare</h2>
+<p>Nach dem Hochlauf startet die AppWare automatisch im Vollbild-Modus und überdeckt so die Betriebssystem-Oberfläche. Das ist so gewünscht - das unterliegende Betriebssystem soll dem Endanwender verborgen bleiben. Um die AppWare zu beenden, müssen Sie auf der angeschlossenen Tastatur die Tastenkombination  </p>
+<pre><code>Alt + F4
+</code></pre>
+<p>drücken. Das Fenster der AppWare schließt sich und Sie können auf die GUI des Raspbian-Betriebssystems zugreifen. </p>
+<h2 id="offnen-eines-terminals">Öffnen eines Terminals</h2>
+<p>Die Einstellungen werden in einem Terminalfenster vorgenommen. Dieses öffnen Sie über das Terminal ("LX-Terminal") am oberen Fensterrand.</p>
+<p><img alt="Terminal" src="../1%20Terminal.png?raw=true" title="Terminal öffnen" /></p>
+<p><em>Das sog. Prompt (hier "pi@futaraspi:~ $") kann bei Ihrem System abweichen.</em></p>
+<h2 id="wlan-konfigurieren">WLAN konfigurieren</h2>
+<p>Um das WLAN zu konfigurieren, starten Sie das Raspberry-Konfigurationsprogramms "raspi-config".</p>
+<p>Geben Sie nach dem Prompt folgenden Befehl ein:</p>
+<pre><code>sudo raspi-config
+</code></pre>
+<p><img alt="raspi-config" src="../2%20RaspiConfig.png?raw=true" title="Raspberry Konfiguration starten" /></p>
+<p>Das Proramm heißt eigentlich nur "raspi-config". Mit dem vorangestellten Befehl "sudo" sagen Sie dem System, dass Sie dieses Programm als Superuser ausführen möchten. Entsprechend fragt Sie das System anschließend nach dem Superuser-Passwort. Wenn Sie dieses richtig eingegeben haben, erscheint die text-basierte Oberfläche des Konfigurationsprogrammes.</p>
+<p><img alt="raspi-config-main" src="../3%20RaspiConfig.png?raw=true" title="Raspberry Konfiguration Hauptmenü" /></p>
+<p>Bewegen Sie die Markierung wie gezeigt auf den Punkt "Network Options" und drücken Sie die Eingabe-Taste (Select).</p>
+<p><img alt="raspi-config-wifi" src="../4%20RaspiConfig.png?raw=true" title="Raspberry Konfiguration WiFi" /></p>
+<p>Hier wählen Sie "N2 Wi-fi" und Sie gelangen in die erste Eingabe-Maske für die SSID des WLANs.</p>
+<p><img alt="raspi-config-ssid" src="../5%20RaspiConfig.png?raw=true" title="Raspberry Konfiguration SSID" /></p>
+<p>Geben Sie hier die SSID des WLANs ein und drücken Sie die Eingabe-Taste (OK). Danach werden Sie aufgefordert, das WLAN-Passwort bzw. die "Passphrase" einzugeben:</p>
+<p><img alt="raspi-config-wlanpwd" src="../6%20RaspiConfig.png?raw=true" title="Raspberry Konfiguration WLAN Passwort" /></p>
+<p>Geben Sie das Passwort ein und drücken Sie die Eingabe-Taste (OK). </p>
+<p>Beenden Sie das Raspberry Konfigurationsprogramm und Sie landen wieder im Prompt des Terminals. Lassen Sie dieses geöffnet, Sie brauchen es gleich wieder.</p>
+<p><strong>Damit ist die WLAN-Konfiguration abgeschlossen.</strong></p>
+<h2 id="ip-adresse-einstellen">IP-Adresse einstellen</h2>
+<p>Da sich das OMS gegenüber dem OMSConfigService mit seiner IP-Adresse identifiziert, muss das OMS eine eindeutige (statische) IP-Adresse haben. </p>
+<p><em>(Wenn Sie das OMS in einem Netzwerk mit DHCP-Server betreiben und gemeinsam mit der IT-Abteilung des Endkunden sicherstellen können, dass jedes OMS immer die gleiche IP-Adresse zugeteilt bekommt, können Sie diesen Schritt auch überspringen.)</em></p>
+<h3 id="name-der-netzwerk-schnittstelle-ermitteln">Name der Netzwerk-Schnittstelle ermitteln</h3>
+<p>Um die Konfiguration der Netzwerk-Schnittstelle vorzunehmen, muss deren Name ermittelt werden. Dieser wird in Folge benötigt. </p>
+<p>Geben Sie dazu den Befehl</p>
+<pre><code>ifconfig | less
+</code></pre>
+<p>im Terminal ein und drücken Sie die Eingabetaste. </p>
+<p><img alt="ifconfig-wlanpwd" src="../7%20ifconfig%20interface%20name.png?raw=true" title="ifconfig um den Schnittstellen-Namen zu finden" /></p>
+<p>Das "Pipe"-Symbol (senkrechter Strich) bewirkt, dass die Ausgabe des Programmes "ifconfig" an das Programm "less" übergeben wird. "less" unterteilt die meist umfangreiche Ausgabe von ifconfig in mehrere Bildschirmseiten, die Sie durch einen Druck auf die Eingabetaste weiterschalten können.</p>
+<p><img alt="ifconfig-locenxb" src="../8%20ifconfig%20enxb.png?raw=true" title="Schnittstellen-Name finden" /></p>
+<p>Auf der obigen Seite finden Sie den Namen der kabelgebundenen Netzwerkkarte. Er beginnt mit "en" ... wenn Sie dann Eingabe drücken, kommen Sie zur letzten Seite der Ausgabe von ipconfig:</p>
+<p><img alt="ifconfig-locwlan" src="../9%20ifconfig%20wlan0.png?raw=true" title="Schnittstellen-Name der WLAN-Karte finden" /></p>
+<p>Der Name der Netzwerkschnittstelle ist in diesem Fall (und wahrscheinlich in Ihrem Fall auch) "wlan0".</p>
+<h3 id="einstellungen-der-netzwerk-schnittstelle-anpassen">Einstellungen der Netzwerk-Schnittstelle anpassen</h3>
+<p>Nun müssen wir in einer Konfigurationsdatei eine Änderung vornehmen. Die Datei heißt "/etc/dhcpcd.conf" und wir verwenden den "nano"-Editor. Da die Datei nur als Superuser bearbeitet werden kann, müssen wir nano im Superuser-Modus starten. Der vollständige Befehl lautet also:</p>
+<pre><code>sudo nano /etc/dhcpcd.conf
+</code></pre>
+<p><img alt="nano-dhcpcd" src="../10%20nano%20etc_dhcpcd.conf.png?raw=true" title="Nano mit Konfigurationsdatei öffnen" /></p>
+<p>Nano zeigt nun die besagte Konfigurations-Datei an:</p>
+<p><img alt="nano-dhcpcd" src="../11%20oben%20dhcpcd.conf.png?raw=true" title="Nano mit geöffneter Konfigurationsdatei" /></p>
+<p>Blättern Sie mit den Pfeiltasten ganz nach unten und geben Sie für die jeweilige Netzwerkkarte die entsprechenden Konfigurationswerte vor. </p>
+<p><strong>Sie müssen das nur für die Schnittstelle "en..." oder die Schnittstelle "wlan0" machen, je nach dem, ob Sie WLAN oder kabelgebundenes LAN verwenden.</strong></p>
+<p>Für wlan0 geben Sie ein:</p>
+<pre><code>interface wlan0
+static ip_address=x.x.x.x
+static routers=y.y.y.y
+static domain_name_servers=z.z.z.z
+</code></pre>
+<p>x.x.x.x ist die statische IP-Adresse des OMS, die Sie vergeben müssen.
+y.y.y.y ist die Router-/Gateway-Adresse, sofern es im Netzwerk einen gibt.
+z.z.z.z ist die Adresse eines DNS-Servers.</p>
+<p>Die letzte Einstellung ist wenig relevant, da das OMS keine Zugriffe auf Rechner über einen Hostnamen tätigt. Auch der Router/Gateway ist in der Regel irrelevant, wenn sich die Leitsteuerung und der OMSConfigService im gleichen Netzwerksegment befinden, wie das OMS.</p>
+<p>Hier ein Beispiel für eine identisch Konfiguration beider Netzwerk-Karten:</p>
+<p><img alt="nano-dhcpcd" src="../12%20setup%20dhcpcd.conf.png?raw=true" title="Neue Konfigurationswerte" /></p>
+<p>Überprüfen Sie die Änderungen auf Schreibfehler und speichern Sie dann mit "Strg+O" die geänderte Datei. Danach beenden Sie nano mit "Strg+X". Beide Befehle sehen Sie auch unten in der Menüleiste des Editors.</p>
+<p>Um die Änderungen wirksam werden zu lassen, müssen Sie das System neu starten. Dazu geben Sie ein</p>
+<pre><code>sudo reboot
+</code></pre>
+<p><img alt="nano-dhcpcd" src="../13%20sudo%20reboot.png?raw=true" title="Neustart des Systems" /></p>
+<p>Nach dem Neustart sollten Sie Verbindung zum WLAN haben und in der Lage sein, andere Rechner im Netzwerk "anzupingen". Auch das können Sie über das Terminal mit dem Befehl "ping" überprüfen:</p>
+<pre><code>ping a.b.c.d
+</code></pre>
+<p>a.b.c.d ist die bekannte IP-Adresse eines Rechners im Netzwerk.</p>
+<p><strong>Damit ist die Netzwerk-Konfiguration abgeschlossen.</strong></p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.3636a4ec.min.js"></script>
+      <script src="../../assets/javascripts/bundle.e9fe3281.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "In Zwischenablage kopieren", "clipboard.copied": "In Zwischenablage kopiert", "search.config.lang": "de", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Suchbegriff eingeben", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: [],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.5eca75d3.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>

@@ -11,7 +11,7 @@
       
       
       <link rel="shortcut icon" href="../../favicon.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.8">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.12">
     
     
       
@@ -19,7 +19,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.01afc2df.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.4dd2dd8d.min.css">
       
       
     
@@ -203,9 +203,51 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Installation des OMS auf dem Zielsystem
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
     <a href="./" title="Installation des OMS auf dem Zielsystem" class="md-nav__link md-nav__link--active">
       Installation des OMS auf dem Zielsystem
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#voraussetzung-zur-einrichtung-der-netzwerkumgebung" class="md-nav__link">
+    Voraussetzung zur Einrichtung der Netzwerkumgebung
+  </a>
+  
+    <nav class="md-nav" aria-label="Voraussetzung zur Einrichtung der Netzwerkumgebung">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#netzwerk-konfigurieren" class="md-nav__link">
+    Netzwerk konfigurieren
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -239,6 +281,34 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#voraussetzung-zur-einrichtung-der-netzwerkumgebung" class="md-nav__link">
+    Voraussetzung zur Einrichtung der Netzwerkumgebung
+  </a>
+  
+    <nav class="md-nav" aria-label="Voraussetzung zur Einrichtung der Netzwerkumgebung">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#netzwerk-konfigurieren" class="md-nav__link">
+    Netzwerk konfigurieren
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -254,6 +324,20 @@
                 
                 
                 <h1 id="installation-des-oms-auf-dem-zielsystem">Installation des OMS auf dem Zielsystem</h1>
+<p>Das OMS wird ab Werk mit vorinstallierter Software ausgeliefert. Diese beinhaltet das Betriebsystem, einen Bootstrapper und ggf. einen aktuellen Stand der AppWare.  Nach dem Hochlauf des Systems erkennt der automatisch gestartete Bootstrapper, ob eine AppWare installiert ist. Sollte das nicht der Fall sein, kann der Bootstrapper des OMS die AppWare von einem im Netzwerk erreichbaren OMSConfigService herunterladen. Hierzu ist jedoch eine funktionierende Netzwerk-Verbindung notwendig. Die Einrichtung der Netzwerkumgebung ist daher die einzige manuelle Konfiguration, die durchgeführt werden muss, sofern das OMS nicht bereits ab Werk korrekt konfiguriert wurde.</p>
+<h2 id="voraussetzung-zur-einrichtung-der-netzwerkumgebung">Voraussetzung zur Einrichtung der Netzwerkumgebung</h2>
+<ol>
+<li>
+<p><strong>Sie benötigen zwingend eine USB-Tastatur!</strong><br />
+   Sie müssen das Gehäuse des OMS öffnen und die Tastatur an einen der freien USB-Anschlüsse des Touchscreen-Computers anstecken, so wie auf dem Bild (schwarzes USB-Kabel) zu sehen.<br />
+<img alt="OMS" src="../OpenOMSKeybAttached.jpg?raw=true" title="Geöffnetes OMS mit angeschlossener USB-Tastatur" /></p>
+</li>
+<li>
+<p><strong>Sie müssen das Superuser-Passwort des Computers kennen!</strong><br />
+   Die Netzwerk-Einstellungen, die Sie anpassen müssen, können nur vom Superuser verändert werden. Falls das Superuser-Passwort nicht im Inneren des OMS auf einer Etikette o.ä. vermerkt ist, wenden Sie sich bitte an BeeWaTec.</p>
+</li>
+</ol>
+<h4 id="netzwerk-konfigurieren"><a href="../installation_raspinwsetup/">Netzwerk konfigurieren</a></h4>
                 
               
               
@@ -320,15 +404,15 @@
       
     </div>
     
-      <script src="../../assets/javascripts/vendor.df0def68.min.js"></script>
-      <script src="../../assets/javascripts/bundle.ba57d267.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "In Zwischenablage kopieren", "clipboard.copied": "In Zwischenablage kopiert", "search.config.lang": "de", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Suchbegriff eingeben", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse"}</script>
+      <script src="../../assets/javascripts/vendor.3636a4ec.min.js"></script>
+      <script src="../../assets/javascripts/bundle.e9fe3281.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "In Zwischenablage kopieren", "clipboard.copied": "In Zwischenablage kopiert", "search.config.lang": "de", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Suchbegriff eingeben", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse"}</script>
       
       <script>
         app = initialize({
           base: "../..",
           features: [],
           search: Object.assign({
-            worker: "../../assets/javascripts/worker/search.fae956e7.min.js"
+            worker: "../../assets/javascripts/worker/search.5eca75d3.min.js"
           }, typeof search !== "undefined" && search)
         })
       </script>
